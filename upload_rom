@@ -1,4 +1,4 @@
-echo "== Uploading rom =="
+echo "== Uploading Rom ="
 set -e
 rom_name=$(grep init $CIRRUS_WORKING_DIR/build_rom.sh -m 1 | cut -d / -f 4)
 rom_name=$rom_name
